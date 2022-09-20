@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/FlowersCart-React/static/css/main.138be1f8.css",
+    "main.js": "/FlowersCart-React/static/js/main.475db9f2.js",
+    "static/js/787.8ba14708.chunk.js": "/FlowersCart-React/static/js/787.8ba14708.chunk.js",
+    "index.html": "/FlowersCart-React/index.html",
+    "main.138be1f8.css.map": "/FlowersCart-React/static/css/main.138be1f8.css.map",
+    "main.475db9f2.js.map": "/FlowersCart-React/static/js/main.475db9f2.js.map",
+    "787.8ba14708.chunk.js.map": "/FlowersCart-React/static/js/787.8ba14708.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.138be1f8.css",
+    "static/js/main.475db9f2.js"
+  ]
+}
