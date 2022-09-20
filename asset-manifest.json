@@ -1,15 +1,27 @@
 {
   "files": {
     "main.css": "/FlowersCart-React/static/css/main.138be1f8.css",
-    "main.js": "/FlowersCart-React/static/js/main.475db9f2.js",
+    "main.js": "/FlowersCart-React/static/js/main.72304f52.js",
     "static/js/787.8ba14708.chunk.js": "/FlowersCart-React/static/js/787.8ba14708.chunk.js",
+    "static/media/11.jpg": "/FlowersCart-React/static/media/11.7486587d733a5de157c6.jpg",
+    "static/media/4.jpg": "/FlowersCart-React/static/media/4.ae2978942b9e8b8dee09.jpg",
+    "static/media/3.jpg": "/FlowersCart-React/static/media/3.d6579c797e731b221241.jpg",
+    "static/media/9.jpg": "/FlowersCart-React/static/media/9.ad196506626f627af6ff.jpg",
+    "static/media/10.jpg": "/FlowersCart-React/static/media/10.153bb01992751d66c914.jpg",
+    "static/media/5.jpg": "/FlowersCart-React/static/media/5.47a4e55eaabaa4c7000a.jpg",
+    "static/media/7.jpg": "/FlowersCart-React/static/media/7.7db1fa06f452f06d5621.jpg",
+    "static/media/8.jpg": "/FlowersCart-React/static/media/8.f6fc550729810c787540.jpg",
+    "static/media/2.jpg": "/FlowersCart-React/static/media/2.9129c009956ae2691fed.jpg",
+    "static/media/1.jpg": "/FlowersCart-React/static/media/1.001b8ad61fd1f0642866.jpg",
+    "static/media/6.jpg": "/FlowersCart-React/static/media/6.fd04bf2a9e2911e42545.jpg",
+    "static/media/tulip.jpg": "/FlowersCart-React/static/media/tulip.4007ff4e6af04e6d640a.jpg",
     "index.html": "/FlowersCart-React/index.html",
     "main.138be1f8.css.map": "/FlowersCart-React/static/css/main.138be1f8.css.map",
-    "main.475db9f2.js.map": "/FlowersCart-React/static/js/main.475db9f2.js.map",
+    "main.72304f52.js.map": "/FlowersCart-React/static/js/main.72304f52.js.map",
     "787.8ba14708.chunk.js.map": "/FlowersCart-React/static/js/787.8ba14708.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.138be1f8.css",
-    "static/js/main.475db9f2.js"
+    "static/js/main.72304f52.js"
   ]
 }
