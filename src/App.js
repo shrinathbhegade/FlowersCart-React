@@ -10,13 +10,28 @@ class App extends Component {
 
   render() {
     return (
+      <div>
+        {this.state.products.length === 0 && (
+          <div style={{ top: 150 }} className="alert alert-danger" role="alert">
+            <blockquote className="blockquote">
+              Great, your wishlist is empty. Refresh the page ( Press f5 key) to
+              get it back!
+            </blockquote>
+          </div>
+        )}
+        {this.renderBody()}
+      </div>
+    );
+  }
+
+  renderBody() {
+    return (
       <React.Fragment>
         <NavBar
           totalProducts={this.state.products.filter((p) => p.value > 0).length}
-        >
-          {" "}
-        </NavBar>
-        <main className="container mt-5">
+          wishlistCount={this.state.products.length}
+        ></NavBar>
+        <main style={{ marginTop: 75 }} className="container">
           <Products
             products={this.state.products}
             onIncrement={this.onIncrement}
@@ -27,13 +42,14 @@ class App extends Component {
       </React.Fragment>
     );
   }
+
   onIncrement = (product) => {
     const products = [...this.state.products];
     let index = products.indexOf(product);
     products[index] = { ...product };
     products[index].value++;
     this.setState({ products });
-    this.addDataIntoCache();
+    this.addDataIntoCache(products);
   };
 
   onDecrement = (product) => {
@@ -43,18 +59,19 @@ class App extends Component {
       products[index] = { ...product };
       products[index].value--;
       this.setState({ products });
-      this.addDataIntoCache();
+      this.addDataIntoCache(products);
     }
   };
 
   onDelete = (product) => {
     const products = this.state.products.filter((p) => p.id !== product.id);
+    //console.log("After delete : ", products);
     this.setState({ products });
-    this.addDataIntoCache();
+    this.addDataIntoCache(products);
   };
 
-  addDataIntoCache = () => {
-    localStorage.setItem("products", JSON.stringify(this.state.products));
+  addDataIntoCache = (param) => {
+    localStorage.setItem("products", JSON.stringify(param));
   };
 }
 

@@ -20,9 +20,10 @@ let products = [
 ];
 
 let data = localStorage.getItem("products");
+
 if (data !== null) {
-  data = JSON.parse(data);
-  products = data;
+  const parsed = JSON.parse(data);
+  if (parsed.length > 0) products = parsed;
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
